@@ -7,6 +7,8 @@ inception_resnet_v2_2016_08_30.ckpt
 *.so
 dataset/
 # Distribution / packaging
+test_data.npy
+train_data.npy
 .Python
 build/
 develop-eggs/
@@ -54,13 +56,13 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
+log/
 # Django stuff:
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-
+.idea/
 # Flask stuff:
 instance/
 .webassets-cache
@@ -97,7 +99,7 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
-
+.git/
 # SageMath parsed files
 *.sage.py
 
